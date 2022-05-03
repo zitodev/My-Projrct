@@ -1,0 +1,87 @@
+body{
+	background-color: white;
+}
+#navbar2{
+	background-color: darkblue;
+	color: white;
+	outline: none;
+	border: none;
+}
+.navbar-nav{
+	float: none;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+ .navbar-nav > li{
+	display: inline-block;
+	float: none;
+}
+.logo{
+	margin-bottom: 15px;
+	width: 50px;
+	height: 70px;
+}
+.signupcon{
+	box-shadow: 7px -3px 7px blue;
+}
+.heading{
+	padding-left: 30px;
+	margin-left: 25px;
+}
+a{
+	color: black;
+}
+li a{
+	background-color: lightblue;
+	padding: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: auto;
+}
+ul li:hover{
+	background-color: green;
+}
+.table, th, td{
+	border: 1px solid;
+}
+table{
+	border-collapse: collapse;
+}
+a.download{
+	color: red;
+}
+/* for this to work add class of active to the <li> tag
+.active, ul li{
+	background-color: pink;
+}
+a:link{
+	background-color: white;
+}
+a:visited{
+	background-color: pink;
+}
+a:hover{
+	background-color: blue;
+}
+a:active{
+	background-color: green;
+}*/
+collapse > ul > li > a:hover{
+background: green;
+color: blue;
+}
+.loginhead{
+	padding-bottom: 15px;
+}
+.loginreg{
+	padding-top: 10px;
+}
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 20;
+      margin: auto;
+
+  }
